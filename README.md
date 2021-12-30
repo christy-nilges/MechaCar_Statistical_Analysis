@@ -21,3 +21,12 @@ design a study to compare the MechaCar performance against vehicles from other m
  - The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. As indicated by the purple arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10-12 and 5.21x10-8, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
  - The slope of the linear model can not be considered to be zero, as the p-value of 5.35x10-11, indicated by the orange arrow above, is lower than even an extreme level of significance, and thus the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
  - Although there are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the blue box, indicates that the model is 71% accurate... though it could probably do better.
+
+## Summary Statistics on Suspension Coils
+
+![Total_Summary_df](https://user-images.githubusercontent.com/88639467/147792811-480d7e62-2176-40a9-aa34-b5d6bb8553c5.PNG)
+
+![Lot_Summary_df](https://user-images.githubusercontent.com/88639467/147792814-7a8b7192-3ec5-48d7-95e6-2d0a44381953.PNG)
+
+
+ - While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
